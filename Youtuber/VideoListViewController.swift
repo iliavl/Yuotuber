@@ -235,6 +235,11 @@ class VideoListViewController: UITableViewController, SettingsViewControllerDele
         buttonSettings.setBackgroundImage(image, for: UIControlState.normal)
         buttonSettings.addTarget(self, action: #selector(buttonActionSettings), for: .touchUpInside)
         headerView.addSubview(buttonSettings)
+        let buttonInfo = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+        let imageInfo = UIImage(named: "Info") as UIImage?
+        buttonInfo.setBackgroundImage(imageInfo, for: UIControlState.normal)
+        buttonInfo.addTarget(self, action: #selector(buttonActionInfo), for: .touchUpInside)
+        headerView.addSubview(buttonInfo)
         let labelLogo = UILabel(frame: CGRect(x: tableViewVideoList.frame.width/2 - 50, y: 0, width: 100, height: 40))
         labelLogo.text = "YOUTUBER"
         headerView.addSubview(labelLogo)
@@ -242,6 +247,14 @@ class VideoListViewController: UITableViewController, SettingsViewControllerDele
     
     func buttonActionSettings() {
         
+    }
+    
+    func buttonActionInfo() {
+        
+        let infoText = "The application displays 25 first trending video clips for 3 selected countries (which can be selected from the list) with the ability to save video in favorites. Also in the application, you can customize the color of the cells in the tables"
+        let alert = UIAlertController(title: "Help", message: infoText, preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
     }
     
     func configureCell(cell: CellWithVideo, index: Int) {
