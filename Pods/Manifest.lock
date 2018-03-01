@@ -1,0 +1,26 @@
+PODS:
+  - Alamofire (4.6.0)
+  - DropDown (2.3.1)
+  - Realm (3.1.1):
+    - Realm/Headers (= 3.1.1)
+  - Realm/Headers (3.1.1)
+  - RealmSwift (3.1.1):
+    - Realm (= 3.1.1)
+  - XCDYouTubeKit (2.5.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - DropDown
+  - RealmSwift
+  - XCDYouTubeKit (~> 2.5)
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  DropDown: 20499c7b2731b0d21609af924e47c7677a2be50d
+  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
+  RealmSwift: d31937ca6a6ee54acde64ec839523c0a3c04924b
+  XCDYouTubeKit: dccfe0c17dd5c5187969ec27e93069573badb08f
+
+PODFILE CHECKSUM: 98abe74507549935174ca4524845dba60df56e34
+
+COCOAPODS: 1.1.1

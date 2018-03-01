@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "VideoListViewController.configureCell(cell : CellWithVideo, index : Int) -&gt; ():VideoListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "checkFavorite(id: videosArray[index].id)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataBase.realmLoadFromDBFav() -&gt; [CellVideoAttribute]:DataBase.swift">
+      </ContextState>
+      <ContextState
+         contextName = "VideoListViewController.SetUI() -&gt; ():VideoListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UIColor(colorLiteralRed: 167.00, green: 230.00, blue: 40.00, alpha: 1.00)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListViewController.checkFavorite(id : String) -&gt; Bool:VideoListViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "favoriteVideo">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.pickerView(UIPickerView, didSelectRow : Int, inComponent : Int) -&gt; ():SettingsViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.loadSettings() -&gt; ():SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "activeTextField">
+            </PersistentString>
+            <PersistentString
+               value = "activeTextField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DataBase.findElementInDB(id : String) -&gt; Bool:DataBase.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "realm.objects(VideoElementRealm.self).filter(&quot;id = &apos;\(id)&apos;&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.pickerView(UIPickerView, titleForRow : Int, forComponent : Int) -&gt; String?:SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "activeTextField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.textFieldDidBeginEditing(UITextField) -&gt; ():SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.activeTextField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListViewController.loadUserDefaults() -&gt; ():VideoListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "VideoListViewControllerFavorites.loadFromDB() -&gt; ():VideoListViewControllerFavorites.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.videosArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListViewController.buttonSettingsUI() -&gt; ():VideoListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "JsonOperation.(loadDataJsonForVideoListArrayElement(Element : CellVideoAttribute, completion : (CellVideoAttribute) -&gt; ()) -&gt; ()).(closure #1):JsonOperation.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "videoElements[&quot;publishedAt&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "videoElements[6]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VideoListViewController.buttonClickSaveAsFavoriteToDB(sender : UIButton) -&gt; ():VideoListViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.(buttonSaveAction(UIBarButtonItem) -&gt; ()).(closure #1):SettingsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "settings.firstTabColor">
+            </PersistentString>
+            <PersistentString
+               value = "textCellColor1.backgroundColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SettingsViewController.pickerView(UIPickerView, numberOfRowsInComponent : Int) -&gt; Int:SettingsViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
